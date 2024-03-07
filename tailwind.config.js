@@ -1,0 +1,101 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        whitesmoke: {
+          "100": "#f8f9fa",
+          "200": "#f5f6f7",
+        },
+        black: "#000",
+        "color-white": "#fff",
+        "primary-dark-shade": "#05004e",
+        honeydew: "rgba(220, 252, 231, 0.2)",
+        lightslategray: "#96a5b8",
+        lightsalmon: "rgba(255, 148, 122, 0.1)",
+        cornflowerblue: "#17a1fa",
+        darkgray: "#b3b3b3",
+        dimgray: "#616161",
+        darkslategray: {
+          "100": "#464e5f",
+          "200": "#333",
+          "300": "#222b45",
+        },
+        "primary-200": "#7b91b0",
+        mediumspringgreen: "#00e096",
+        dodgerblue: "#0095ff",
+        "supporting-color-yellow-shade": "#fef6e7",
+        darkorange: {
+          "100": "#ff8f0c",
+          "200": "#ff8900",
+        },
+        navajowhite: "#ffd5a4",
+        "greys-blue-grey-800": "#444a6d",
+        aliceblue: "#edf2f6",
+        "supporting-color-violet-shade": "#fbf1ff",
+        blueviolet: "#884dff",
+        plum: {
+          "100": "#fba6e8",
+          "200": "#c5a8ff",
+        },
+        "colors-green-50": "#f0fdf4",
+        fuchsia: "#e000ca",
+        lightblue: "rgba(195, 222, 247, 0.1)",
+        darkslateblue: "#2c3fa4",
+        navy: "#000080",
+        lightsteelblue: "#a1c8ec",
+        silver: "#bdc9d3",
+        "greys-blue-grey-700": "#737791",
+        "greys-blue-grey-900": "#151d48",
+        "color-black": "#374557",
+        "greys-blue-grey-300": "#f9fafb",
+        gray: "#737b7b",
+        "primary-900": "#5d5fef",
+        mediumslateblue: "#7878ff",
+      },
+      spacing: {},
+      fontFamily: {
+        "xs-regular": "Poppins",
+        inter: "Inter",
+        epilogue: "Epilogue",
+        "open-sans": "'Open Sans'",
+      },
+      borderRadius: {
+        sm: "14px",
+        "3xs": "10px",
+        xl: "20px",
+      },
+    },
+    fontSize: {
+      "3xs": "10px",
+      xs: "12px",
+      "3xl": "22px",
+      lg: "18px",
+      "2xs": "11px",
+      mini: "15px",
+      sm: "14px",
+      base: "16px",
+      mid: "17px",
+      "17xl": "36px",
+      inherit: "inherit",
+    },
+    screens: {
+      mq1500: {
+        raw: "screen and (max-width: 1500px)",
+      },
+      mq1225: {
+        raw: "screen and (max-width: 1225px)",
+      },
+      mq850: {
+        raw: "screen and (max-width: 850px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
